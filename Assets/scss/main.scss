@@ -1,0 +1,7 @@
+// her laver vi vores scc
+
+// SCSS variable (for use in SCSS)
+@use "Assets/scss/color.scss";
+body {
+    background-color: $light;
+}
