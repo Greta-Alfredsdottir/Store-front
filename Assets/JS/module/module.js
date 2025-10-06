@@ -1,11 +1,12 @@
 // Her har vi vores modules
 
-
 // #region controller Code,
 
-function getdata() {
-    
-};
+fetch('https://dummyjson.com/products')
+.then(res => res.json())
+.then(console.log);
+
+
 // #endregion 
 
 //#region Modul code
