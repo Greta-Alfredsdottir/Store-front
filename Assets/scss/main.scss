@@ -2,6 +2,9 @@
 
 // SCSS variable (for use in SCSS)
 @use "./color" as *; 
+@use "./mixin"; 
+@use "./global";
+@use "./reset";
 
 body {
     background-color: $light;
